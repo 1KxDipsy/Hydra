@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="HYDRA_R.A.T\Clients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HYDRA_R.A.T\FrmMassUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HYDRA_R.A.T\FrmMiner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HYDRA_R.A.T\FrmTransfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HYDRA_R.A.T\FrmURL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HYDRA_R.A.T\InputDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NeonRat\Forms\HYDRAUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NeonRat\Forms\MsgBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NeonRat\Forms\Remote_Process.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NeonRat\Forms\Remote_Startup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NeonRat\Forms\Remote_url.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NeonRat\FrmBuilder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NeonRat_R.A.T.UIDESIGN\Remote_Shell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="PrintClass.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="ToggleButtons\ToggleButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="ZEDRatApp\Forms\About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ZEDRatApp\Forms\Controls\RapidPictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="ZEDRatApp\Forms\Controls\TabControlEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="ZEDRatApp\Forms\Forma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ZEDRatApp\Forms\FrmFindOpenPort.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ZEDRatApp\Forms\FrmSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ZEDRatApp\Forms\FrmVNC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ZEDRatApp\Forms\Help.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ZEDRatApp\Forms\HYDRA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ZEDRatApp\Forms\Privilege_Escalation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ZEDRatApp\Forms\Remote_AddStartup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ZEDRatApp\Forms\Remote_Desk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ZEDRatApp\Forms\Remote_File_Dialog\FileDownload.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ZEDRatApp\Forms\Remote_File_Dialog\FileUpload.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ZEDRatApp\Forms\Remote_File_Dialog\NewFolder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ZEDRatApp\Forms\Remote_File_Dialog\Rename.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ZEDRatApp\Forms\Remote_GetClipboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ZEDRatApp\Forms\Remote_HRDP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ZEDRatApp\Forms\Remote_Keylogger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ZEDRatApp\Forms\Remote_Miner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ZEDRatApp\Forms\Remote_Port.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ZEDRatApp\Forms\Remote_SetClipboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ZEDRatApp\Forms\Remote_Startup_Dialog\frmAddStartup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ZEDRatApp\Forms\Remote_Update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ZEDRatApp\Forms\Remote_WebRecovery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
