@@ -1,47 +1,59 @@
+using System;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 namespace ns0
 {
+	// Token: 0x02000148 RID: 328
 	[CompilerGenerated]
 	internal sealed class Class75
 	{
-		[StructLayout(LayoutKind.Explicit, Pack = 1, Size = 16)]
-		private struct Struct3
-		{
-		}
-
-		[StructLayout(LayoutKind.Explicit, Pack = 1, Size = 24)]
-		private struct Struct4
-		{
-		}
-
-		internal static readonly Struct4 struct4_0/* Not supported: data(00 00 00 00 CD CC 4C 3E CD CC CC 3E 9A 99 19 3F CD CC 4C 3F 00 00 80 3F) */;
-
-		internal static readonly Struct4 struct4_1/* Not supported: data(00 00 00 00 00 00 00 00 CD CC 4C 3E CD CC CC 3E 00 00 80 3F 00 00 80 3F) */;
-
-		internal static readonly long long_0/* Not supported: data(7D 00 59 00 79 00 3D 00) */;
-
-		internal static readonly Struct3 struct3_0/* Not supported: data(0D 00 0A 00 09 00 20 00 2D 00 21 00 3C 00 3E 00) */;
-
-		internal static readonly Struct3 struct3_1/* Not supported: data(00 00 00 00 48 E1 FA 3E B8 1E 05 3F 00 00 80 3F) */;
-
-		internal static readonly long long_1/* Not supported: data(7B 00 58 00 78 00 3D 00) */;
-
-		internal static readonly Struct3 struct3_2/* Not supported: data(00 00 00 00 9A 99 19 3F A4 70 7D 3F 00 00 80 3F) */;
-
+		// Token: 0x060013E9 RID: 5097 RVA: 0x0004E8F8 File Offset: 0x0004CAF8
 		internal static uint smethod_0(string string_0)
 		{
-			uint num = default(uint);
+			uint num;
 			if (string_0 != null)
 			{
-				num = 2166136261u;
+				num = 2166136261U;
 				for (int i = 0; i < string_0.Length; i++)
 				{
-					num = (string_0[i] ^ num) * 16777619;
+					num = ((uint)string_0[i] ^ num) * 16777619U;
 				}
 			}
 			return num;
+		}
+
+		// Token: 0x040008B5 RID: 2229 RVA: 0x00002150 File Offset: 0x00000350
+		internal static readonly Class75.Struct4 struct4_0;
+
+		// Token: 0x040008B6 RID: 2230 RVA: 0x00002168 File Offset: 0x00000368
+		internal static readonly Class75.Struct4 struct4_1;
+
+		// Token: 0x040008B7 RID: 2231 RVA: 0x00002180 File Offset: 0x00000380
+		internal static readonly long long_0;
+
+		// Token: 0x040008B8 RID: 2232 RVA: 0x00002188 File Offset: 0x00000388
+		internal static readonly Class75.Struct3 struct3_0;
+
+		// Token: 0x040008B9 RID: 2233 RVA: 0x00002198 File Offset: 0x00000398
+		internal static readonly Class75.Struct3 struct3_1;
+
+		// Token: 0x040008BA RID: 2234 RVA: 0x000021A8 File Offset: 0x000003A8
+		internal static readonly long long_1;
+
+		// Token: 0x040008BB RID: 2235 RVA: 0x000021B0 File Offset: 0x000003B0
+		internal static readonly Class75.Struct3 struct3_2;
+
+		// Token: 0x02000149 RID: 329
+		[StructLayout(LayoutKind.Explicit, Pack = 1, Size = 16)]
+		internal struct Struct3
+		{
+		}
+
+		// Token: 0x0200014A RID: 330
+		[StructLayout(LayoutKind.Explicit, Pack = 1, Size = 24)]
+		internal struct Struct4
+		{
 		}
 	}
 }
